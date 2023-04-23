@@ -1,0 +1,709 @@
+﻿﻿#HomeScreen {
+}
+
+.PlayerAction {
+  display: block;
+}
+
+.modal {
+  overflow: auto !important;
+}
+
+.bg-black {
+  background-color: #000 !important;
+}
+
+.background.bg-warning {
+  background-color: #ffc107b5 !important;
+}
+
+.PlayerCard.Selected {
+  width: 40px;
+  height: 60px;
+  border-color: black !important;
+  border: 3px solid !important;
+}
+
+.fa-user {
+  font-size: 7rem;
+}
+
+.fa-user:hover {
+  opacity: 0.6 !important;
+}
+
+@media (max-width: 768px) {
+  .fa-user {
+    font-size: 3rem;
+  }
+}
+
+.Player .PlayerStatus {
+  display: none;
+}
+
+.drop-here {
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+.CommunityCard.Selected {
+  width: 70px;
+  height: 90px;
+  filter: brightness(100%);
+  border: 2px solid #0094ff;
+  padding: 2px;
+  z-index: 25;
+}
+
+.Droppable {
+  opacity: 0.5 !important;
+}
+
+.CommunityCardDrop {
+  width: 100%;
+  height: 90px;
+  filter: brightness(100%);
+  border: 2px solid #0094ff;
+  padding: 2px;
+  z-index: 25;
+  background: gainsboro;
+  font-size: 3rem;
+}
+
+.btn-sm:disabled {
+  cursor: not-allowed !important;
+  opacity: 0.2 !important;
+}
+
+.odd {
+  background-color: rgba(22, 97, 178, 0.54);
+}
+
+.even {
+  background-color: rgba(251, 231, 68, 0.49);
+}
+
+.CustomSideBar {
+  overflow-wrap: break-word;
+  max-height: 750px !important;
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-size: 0.8rem;
+}
+
+.CustomSideBar span:last-of-type,
+.logging {
+  color: #d2eb2a;
+  padding: 1px;
+}
+
+.Player1 .PlayerDeck .PlayerCard[data-presentation="private"] {
+  margin-top: 15px;
+  border: 2px solid red;
+}
+
+.pr-crd-ovrly {
+  height: 20px;
+  background-color: #1661b2;
+  z-index: 100;
+  top: -23px;
+  left: 3px;
+  width: 40px;
+}
+
+.customPanel {
+  margin-top: 5% !important;
+  margin-right: 1% !important;
+  margin-bottom: 5% !important;
+  margin-left: 1% !important;
+  width: 98% !important;
+}
+
+.btn-group-sm > .btn,
+.btn-sm {
+  padding: 0.2rem 0.2rem;
+  margin-top: 0.25rem;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .btn-group-sm > .btn,
+  .btn-sm {
+    font-size: 0.75rem;
+  }
+}
+
+#BetTakeValue,
+#DealValue,
+#txtAnte {
+  width: 30px;
+  height: 30px;
+  margin-top: 0.25rem;
+}
+
+#status {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 560px) {
+  #status {
+    line-height: 1.15rem;
+    padding: 0.15rem;
+  }
+
+  .PlayerDealer .btn {
+    padding: 0 0.75rem;
+  }
+}
+
+.CardDealPlayer:hover {
+  color: #1661b2;
+  cursor: pointer;
+}
+
+.alert-success {
+  width: 90%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.CommunityCardActionLabel {
+  color: white;
+  margin: 2%;
+}
+
+.CommunityCardActionLabel:hover {
+  color: #1661b2;
+  margin: 2%;
+}
+
+#Page2 .col {
+  border-radius: 2% !important;
+}
+
+.Playerz {
+  background-color: #1661b2;
+  background-image: linear-gradient(
+    #513333,
+    yellow
+  ); /* width:100px; */ /* height: 100px; */
+  box-shadow: 1px 4px 20px 0px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 95px;
+  font-family: cursive;
+  font-size: 20px;
+  margin-left: 2%;
+  margin-right: 15%;
+  min-width: 150px;
+  min-height: 150px;
+  max-width: 150px;
+  max-height: 150px;
+  color: chartreuse;
+  display: inline-block;
+}
+
+img {
+  cursor: pointer !important;
+}
+
+.MainPageDivs {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.PlayerCard {
+  border: 1px solid;
+  /* padding: 0%; */
+  border-radius: 5%;
+  width: 20%;
+  /*height: 100%;*/
+  filter: brightness(100%);
+  z-index: 25;
+  padding: 0%;
+  margin: 2px;
+}
+
+.Player1 .PlayerDeck .PlayerCard {
+  border: 1px solid;
+  /* padding: 0%; */
+  border-radius: 5%;
+  width: 10%;
+  /*height: 100%;*/
+  filter: brightness(100%);
+  z-index: 25;
+  padding: 0%;
+  margin: 2px;
+}
+
+.PlayerDeck {
+  display: inherit;
+}
+
+.PlayerCardDeck {
+  width: 40px;
+  height: 60px;
+  filter: brightness(100%);
+  outline-color: black;
+  z-index: 25;
+}
+
+.tokenImage {
+  width: 30px;
+  height: 50px;
+  filter: brightness(100%);
+  z-index: 25;
+}
+
+.tokenImagePotSize {
+  width: 65px;
+  height: 50px;
+  filter: brightness(100%);
+  z-index: 25;
+}
+
+.PlayerActive {
+  height: 12%;
+}
+
+.PlayerFolded {
+  opacity: 0.35;
+}
+
+.CommunityCard {
+  width: 45px;
+  height: 60px;
+  filter: brightness(100%);
+  padding: 2px;
+  margin-top: 1%;
+}
+
+.CommunityCardAnimated {
+  width: 60px;
+  height: 80px;
+  filter: brightness(100%);
+  z-index: 50;
+  display: none;
+  position: absolute;
+  align-content: center;
+}
+
+body {
+  background-color: #fff;
+}
+
+.loader {
+  border: 16px solid green;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 400px;
+  height: 400px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  position: absolute;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10%;
+  z-index: 50;
+  display: none;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.rotate {
+  animation: rotation 8s infinite linear;
+}
+
+@media only screen and (max-width: 414) {
+  body {
+    background-color: rgba(0, 0, 0, 0.19);
+    background: radial-gradient(
+      circle,
+      rgba(0, 0, 0, 0.19),
+      rgba(0, 0, 0, 0.19) 99%
+    );
+  }
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* HOVER STYLES */
+
+#DealToCommunityPopUp {
+  display: none;
+  position: absolute;
+  padding: 10px;
+  background: #eeeeee;
+  color: #000000;
+  border: 1px solid #1a1a1a;
+  font-size: 90%;
+  left: 230px;
+  top: 75px;
+  border-radius: 10%;
+  z-index: 50;
+}
+
+#CommunityCardClickPopUp {
+  width: 70%;
+  display: none;
+  position: absolute;
+  padding: 10px;
+  background: #eeeeee;
+  color: #000000;
+  border: 1px solid #1a1a1a;
+  font-size: 90%;
+  left: 500px;
+  top: -50px;
+  border-radius: 10%;
+  z-index: 50;
+}
+
+div#pop-up {
+  display: none;
+  position: absolute;
+  width: 200px;
+  padding: 10px;
+  background: #eeeeee;
+  color: #000000;
+  border: 1px solid #1a1a1a;
+  font-size: 90%;
+  left: 500px;
+  top: -50px;
+  border-radius: 25%;
+  z-index: 50;
+}
+
+#ResumeGameModal {
+  opacity: 0.85;
+  margin-top: 3%;
+}
+
+.modal-dialog {
+  margin-top: 3%;
+}
+
+.logging {
+  white-space: nowrap;
+  position: relative;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  padding: 0.25rem 0.25rem;
+  margin-bottom: 0.25rem;
+  border-radius: 0.25rem;
+}
+
+.DropToStyle {
+  border: green 5px dotted;
+}
+
+.col-4:-moz-drag-over {
+  border: green 5px dotted !important;
+}
+
+.TakeCommunityCard {
+  display: inline-block;
+}
+
+.PlayerX div {
+  display: inline-block !important;
+  border: 2px dotted white;
+}
+
+button:disabled {
+  opacity: 0.3 !important;
+}
+
+.text-9 {
+  font-size: 0.9rem;
+}
+
+#table {
+  z-index: -10;
+  background-image: url("../images/tabletop.jpg");
+  border-radius: 360px 360px 360px 360px;
+  border: 20px solid #922e2e;
+}
+
+#potdiv {
+  background-image: url("../images/tabletop.jpg");
+}
+
+.Player {
+  border: 1px solid brown;
+  background: #fff;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+}
+
+.PlayerView.PlayerActive.Player1.Player {
+  background-color: unset;
+  border: unset;
+  height: inherit;
+}
+
+.Player3 {
+  top: -35px;
+  left: -20px;
+}
+
+.Player4 {
+  top: -35px;
+}
+
+.Player5 {
+  top: -35px;
+  right: -15px;
+}
+
+.Player2 {
+  bottom: 0;
+  left: -20px;
+}
+
+.Player6 {
+  bottom: 0;
+  right: -15px;
+}
+
+/*Bootstrap color-profile utility overrides*/
+.btn-primary {
+  color: #fff;
+  background-color: #432aeb;
+  border-color: #432aeb !important;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #0069d9 !important;
+  border-color: #0062cc !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff !important;
+  background-color: #0062cc !important;
+  border-color: #005cbf !important;
+}
+
+.badge-primary {
+  color: #fff !important;
+  background-color: #432aeb !important;
+}
+
+.text-primary {
+  color: #432aeb !important;
+}
+
+.bg-primary {
+  background-color: #432aeb !important;
+}
+
+.btn-secondary {
+  color: #fff !important;
+  background-color: #d2eb2a !important;
+  border-color: #007bff !important;
+}
+
+.btn-secondary:hover {
+  color: #fff !important;
+  background-color: #0069d9 !important;
+  border-color: #0062cc !important;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.show > .btn-secondary.dropdown-toggle {
+  color: #fff !important;
+  background-color: #0062cc !important;
+  border-color: #005cbf !important;
+}
+
+.badge-secondary {
+  color: #432aeb !important;
+  background-color: #d2eb2a !important;
+}
+
+.text-secondary {
+  color: #d2eb2a;
+}
+
+.bg-secondary {
+  background-color: #d2eb2a !important;
+  animation: blink 2s linear infinite;
+}
+
+@keyframes blink {
+  50% {
+    background-color: #ff69b4;
+  }
+}
+
+.bg-active {
+  background-color: #fdd96d !important;
+}
+
+.btn-success {
+  color: #fff !important;
+  background-color: #2aeba3 !important;
+  border-color: #2aeba3 !important;
+}
+
+.btn-success:hover {
+  color: #fff !important;
+  background-color: #0069d9 !important;
+  border-color: #0062cc !important;
+}
+
+.btn-success:not(:disabled):not(.disabled).active,
+.btn-success:not(:disabled):not(.disabled):active,
+.show > .btn-success.dropdown-toggle {
+  color: #fff !important;
+  background-color: #0062cc !important;
+  border-color: #005cbf !important;
+}
+
+.badge-success {
+  color: #432aeb !important;
+  background-color: #2aeba3 !important;
+}
+
+text-success {
+  color: #2aeba3;
+}
+
+.btn-danger {
+  color: #fff !important;
+  background-color: #eb2a72 !important;
+  border-color: #eb2a72 !important;
+}
+
+.btn-danger:hover {
+  color: #fff !important;
+  background-color: #0069d9 !important;
+  border-color: #0062cc !important;
+}
+
+.btn-danger:not(:disabled):not(.disabled).active,
+.btn-danger:not(:disabled):not(.disabled):active,
+.show > .btn-danger.dropdown-toggle {
+  color: #fff !important;
+  background-color: #0062cc !important;
+  border-color: #005cbf !important;
+}
+
+.badge-danger {
+  color: #fff !important;
+  background-color: #eb2a72 !important;
+}
+
+text-danger {
+  color: #eb2a72 !important;
+}
+
+.btn-warning {
+  color: #fff !important;
+  background-color: #007bff !important;
+  border-color: #007bff !important;
+}
+
+.btn-warning:hover {
+  color: #fff !important;
+  background-color: #0069d9 !important;
+  border-color: #0062cc !important;
+}
+
+.btn-warning:not(:disabled):not(.disabled).active,
+.btn-warning:not(:disabled):not(.disabled):active,
+.show > .btn-warning.dropdown-toggle {
+  color: #fff !important;
+  background-color: #0062cc !important;
+  border-color: #005cbf !important;
+}
+
+.badge-warning {
+  color: #fff !important;
+  background-color: #007bff !important;
+}
+
+text-warning {
+  color: #000 !important;
+}
+
+.btn-info {
+  color: #fff !important;
+  background-color: #007bff !important;
+  border-color: #007bff !important;
+}
+
+.btn-info:hover {
+  color: #fff !important;
+  background-color: #0069d9 !important;
+  border-color: #0062cc !important;
+}
+
+.btn-info:not(:disabled):not(.disabled).active,
+.btn-info:not(:disabled):not(.disabled):active,
+.show > .btn-info.dropdown-toggle {
+  color: #fff !important;
+  background-color: #0062cc !important;
+  border-color: #005cbf !important;
+}
+
+.badge-info {
+  color: #fff !important;
+  background-color: #007bff !important;
+}
+
+text-info {
+  color: #000 !important;
+}
+
+div#potdiv {
+  padding: 0 !important;
+}
+
+.modal {
+  background: rgba(22, 1, 1, 0.5) !important;
+}
+
+body {
+  margin-top: 10px !important;
+}
+
+@media screen and (max-width: 999px) {
+}
+
+.alert-success {
+  margin-left: 0% !important;
+  margin-right: 0% !important;
+}
